@@ -7,6 +7,7 @@ title: Overview
 A `Library` is a collection of resources (`Extensions`, `Rules`, and `DataElements` that represent the desired behavior of a `Property`.
 
 The publishing process in Launch consists of building a `Library`, testing the resulting `Build` in an `Environment`, and promoting that `Library` to the next stage of the process until it finally reaches the Production `Environment`. 
+In that regard, the library possesses a `build_required` attribute that can help you define if the `Library` requires to be build or not. 
 
 There are two basic things to think about:
 1. Workflow state

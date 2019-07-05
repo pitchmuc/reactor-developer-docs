@@ -17,7 +17,10 @@ For example:
 {% alert info, Reminder %}
 Note: The above example URI shows unencoded `[` and `]` characters simply for
 readability. In practice, these characters must be percent-encoded, per the
-requirements in RFC 3986.
+requirements in RFC 3986. Encoded values : 
+[ : %5B
+] : %5D
+
 {% endalert %}
 
 ## Filtering on multiple values
@@ -32,3 +35,8 @@ comma-separated list.
 To filter on multiple values, supply a `filter` parameter for each.
 
 `GET /companies/:company_id/properties?filter[name]=PropertyA&filter[enabled]=false`
+
+## Possible values of filtering
+Here is a list of the possible filters: (to be completed): 
+- EQ
+- CONTAINS

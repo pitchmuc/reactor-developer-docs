@@ -18,7 +18,7 @@ There are three possible `installation_status` values:
 #### `pending`
 
 When an Extension is created, `installation_status` is set to `pending`.
-This indicates that DTM received the request to make the ExtensionPackage
+This indicates that Launch received the request to make the ExtensionPackage
 available as Extension to the specified Property, and will begin the
 installation process.
 
